@@ -61,7 +61,7 @@ class Main extends PluginBase implements Listener {
                     $bpos = $world->getBlockAt($pos->x, $pos->y, $pos->z)();
                     if ($bpos !== VanillaBlocks::BEDROCK() && $bpos !== VanillaBlocks::OBSIDIAN()) {
                         $airBlock = VanillaBlocks::AIR();
-                        $world->setBlock($pos, $airBlock, false, false);
+                        $world->setBlock($pos, $airBlock, false);
                         $world->dropItem($pos, $bpos);
                     }
                 }
