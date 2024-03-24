@@ -1,4 +1,4 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/BajanVlogs/ExplosivePickaxe
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Terpz710/ExplosivePickaxe
 build-by-default: true
 branches:
 - master
