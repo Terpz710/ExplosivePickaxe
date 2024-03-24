@@ -8,4 +8,9 @@ author: georgianYT, BajanDoesYT, Terpz710(Main updater)
 commands:
  hammer:
   description: "Allows the user to get hammers and spawn them."
-  permission: "hammer.cmd"
+  permission: "hammer.give"
+
+permissions:
+  hammer.give:
+    description: "Allows the user to get hammers and spawn them."
+    default: op
