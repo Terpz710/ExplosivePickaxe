@@ -63,6 +63,7 @@ public function onCommand(CommandSender $sender, Command $cmd, string $label, ar
                     $world->setBlockIdAt($pos->x, $pos->y, $pos->z, VanillaItems::AIR());
                     $item = Item::getTypeId($bpos, 0, 1);
                     $world->dropItem($pos, $item);
+                    }
                 }
             }
         }
